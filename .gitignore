@@ -1,0 +1,37 @@
+# Go build and test files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go binary
+/bin/
+
+# Go test cache and coverage files
+/.cache/
+/cover/
+
+# Go module dependencies
+/go.mod
+/go.sum
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Compiled output
+/dist/
+/build/
+
+# Logs and temporary files
+/log/
+/tmp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
